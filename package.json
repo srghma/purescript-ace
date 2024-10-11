@@ -11,7 +11,7 @@
   },
   "name": "purescript-ace",
   "scripts": {
-    "build": "eslint src && spago build --censor-stats --strict --pedantic-packages",
+    "build": "eslint src && spago build --censor-stats --strict --ensure-ranges --pedantic-packages",
     "test": "spago test --offline"
   },
   "devDependencies": {
